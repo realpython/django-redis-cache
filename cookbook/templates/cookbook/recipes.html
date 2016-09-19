@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Recipes</title>
+</head>
+<body>
+{% for recipe in recipes %}
+  <h1>{{ recipe.name }}</h1>
+  {% autoescape off %}
+    <p>{{ recipe.desc }}</p>
+  {% endautoescape %}
+  <h2>Ingredients</h2>
+  <ul>
+    {% for ingredient in recipe.ingredient_set.all %}
+    <li>{{ ingredient.desc }}</li>
+    {% endfor %}
+  </ul>
+  <h2>Instructions</h2>
+  {% autoescape off %}
+    <p>{{ recipe.instructions }}</p>
+  {% endautoescape %}
+{% endfor %}
+</body>
+</html>

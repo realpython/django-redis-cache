@@ -1,0 +1,179 @@
+[
+{
+  "model": "cookbook.recipe",
+  "pk": 1,
+  "fields": {
+    "name": "Classic Teriyaki Sauce",
+    "desc": "Many Americans think of teriyaki as a marinade, but in traditional Japanese cuisine it's actually a glaze or barbecue sauce brushed on simply grilled meats and seafood. <em>Teri</em> is the Japanese word for gloss or luster; <em>yaki</em> means grilled. Zen-like in its simplicity, this recipe was inspired by the late Shizuo Tsuji, founder of the Ecole Technique H\u00f4teli\u00e8re Tsuji in Osaka and author of the seminal book <em>Japanese Cooking: A Simple Art</em>.",
+    "instructions": "<ol>\r\n<li>Combine the soy sauce, sake, mirin, and sugar in a small, heavy saucepan and bring to a boil over high heat. Reduce the heat to medium and let simmer until the sugar dissolves and the sauce is thick and syrupy, about 5 minutes.</li>\r\n<li>Remove the sauce from the heat and let cool before using it as a glaze or as a sauce for serving. The teriyaki sauce will keep, tightly covered in the refrigerator, for at least 2 weeks.</li>\r\n</ol>"
+  }
+},
+{
+  "model": "cookbook.recipe",
+  "pk": 2,
+  "fields": {
+    "name": "Red Miso Barbecue Sauce",
+    "desc": "Red miso (actually a reddish brown in color) has a deep, rich, salty flavor and isn't quite as sweet as white miso. Known as <em>aka-miso</em> in Japanese, it contains barley as well as soybeans and rice. Red miso barbecue sauce is particularly good on grilled vegetables and salmon.",
+    "instructions": "<ol>\r\n<li>Combine the red miso, sake, mirin, sugar, and mayonnaise in the top of a double boiler and whisk until smooth. Gradually whisk in the vegetable stock. Cook the sauce over simmering water, stirring occasionally, until thick and creamy, about 5 minutes. Remove the pan from over the water and let the sauce cool to room temperature. Taste for seasoning, adding more sugar necessary; be sure to stir any added sugar in thoroughly.</li>\r\n<li>Transfer the red miso sauce to a serving bowl. It can be refrigerated, covered, for up to 3 days. Let it return to room temperature before serving.</li>\r\n</ol>"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 1,
+  "fields": {
+    "name": "dark soy sauce"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 2,
+  "fields": {
+    "name": "sake"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 3,
+  "fields": {
+    "name": "mirin"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 4,
+  "fields": {
+    "name": "sugar"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 5,
+  "fields": {
+    "name": "red miso"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 6,
+  "fields": {
+    "name": "mayonnaise"
+  }
+},
+{
+  "model": "cookbook.food",
+  "pk": 7,
+  "fields": {
+    "name": "dashi"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 1,
+  "fields": {
+    "recipe": 1,
+    "food": 1,
+    "amount": "0.500",
+    "unit_of_measure": "cup",
+    "desc": "1/2 cup dark soy sauce"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 2,
+  "fields": {
+    "recipe": 1,
+    "food": 2,
+    "amount": "0.500",
+    "unit_of_measure": "cup",
+    "desc": "1/2 cup sake or dry sherry"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 3,
+  "fields": {
+    "recipe": 1,
+    "food": 3,
+    "amount": "0.500",
+    "unit_of_measure": "cup",
+    "desc": "1/2 cup mirin (sweet rice wine) or cream sherry"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 4,
+  "fields": {
+    "recipe": 1,
+    "food": 4,
+    "amount": "2.000",
+    "unit_of_measure": "tbsp",
+    "desc": "2 tablespoons sugar"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 5,
+  "fields": {
+    "recipe": 2,
+    "food": 5,
+    "amount": "1.000",
+    "unit_of_measure": "cup",
+    "desc": "1 cup red miso"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 6,
+  "fields": {
+    "recipe": 2,
+    "food": 2,
+    "amount": "2.000",
+    "unit_of_measure": "tbsp",
+    "desc": "2 tablespoons sake or dry sherry"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 7,
+  "fields": {
+    "recipe": 2,
+    "food": 3,
+    "amount": "2.000",
+    "unit_of_measure": "tbsp",
+    "desc": "2 tablespoons mirin (sweet rice wine), or cream sherry"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 8,
+  "fields": {
+    "recipe": 2,
+    "food": 4,
+    "amount": "2.000",
+    "unit_of_measure": "tbsp",
+    "desc": "2 tablespoons sugar, or more to taste"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 9,
+  "fields": {
+    "recipe": 2,
+    "food": 6,
+    "amount": "2.000",
+    "unit_of_measure": "tbsp",
+    "desc": "2 tablespoons mayonnaise"
+  }
+},
+{
+  "model": "cookbook.ingredient",
+  "pk": 10,
+  "fields": {
+    "recipe": 2,
+    "food": 7,
+    "amount": "2.000",
+    "unit_of_measure": "tbsp",
+    "desc": "2 tablespoons vegetable stock, dashi, or water"
+  }
+}
+]
