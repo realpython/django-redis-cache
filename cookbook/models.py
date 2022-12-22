@@ -40,9 +40,9 @@ class Food(models.Model):
 class Ingredient(models.Model):
     """A food that is used in a recipe."""
 
-    recipe = models.ForeignKey(Recipe)
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
 
-    food = models.ForeignKey(Food)
+    food = models.ForeignKey(Food, on_delete=models.CASCADE)
 
     # ex. 1/8 = 0.125, 1/4 = 0.250
     amount = models.DecimalField(max_digits=6, decimal_places=3,

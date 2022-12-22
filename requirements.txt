@@ -1,5 +1,5 @@
-Django==1.9.8
-django-debug-toolbar==1.5
-django-redis==4.4.4
-redis==2.10.5
-sqlparse==0.2.0
+Django==3.2.8
+django-debug-toolbar==3.8.1
+django-redis==5.2.0
+redisredis==4.4.0
+sqlparse==0.4.3
